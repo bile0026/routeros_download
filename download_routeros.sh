@@ -19,3 +19,5 @@ wget https://download.mikrotik.com/routeros/$version/all_packages-mmips-$version
 #unzip files
 unzip \*.zip
 
+#remove .zip files
+rm -rf *.zip
